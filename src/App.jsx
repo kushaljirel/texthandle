@@ -6,7 +6,7 @@ import TextBox from "./components/TextBox";
 import Alert from "./components/Alert";
 // import About from "./components/About";
 // import { createBrowserRouter, Route, RouterProvider } from "react-router-dom";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
   // state to assign mode color(either dark or light)
