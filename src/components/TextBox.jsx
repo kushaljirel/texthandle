@@ -130,7 +130,7 @@ const TextBox = (props) => {
           <h4>Your text summary:</h4>
           <p>
             {
-              text.split(" ").filter((element) => {
+              text.split(/\s+/).filter((element) => {
                 return element.length != 0;
               }).length
             }{" "}
