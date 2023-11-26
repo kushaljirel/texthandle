@@ -134,7 +134,9 @@ const TextBox = (props) => {
                 return element.length != 0;
               }).length
             }{" "}
-            words and {text.length - text.split(/\s+/).length + 1} characters
+            words and {text.length - text.split(/\s+/).filter((element) => {
+                return element.length != 0;
+              }).length} characters
             typed.
           </p>
           <p>
