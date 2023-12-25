@@ -41,7 +41,7 @@ const App = () => {
   return (
     <div>
       {/* <BrowserRouter> */}
-      <Navbar logoName="KingJr" mode={Mode} toggleMode={toggleMode} />
+      <Navbar logoName="TextHandle" mode={Mode} toggleMode={toggleMode} />
       <div className="container">
       <Alert alertMsg={alertMsg}/>
       <TextBox showalert={showalert} heading="Enter your text:" mode={Mode} setAlertMsg={setAlertMsg}/>
